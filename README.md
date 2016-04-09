@@ -33,10 +33,10 @@ Logic in STL is based on two important parts:
 
 | Drop        | Description  | Availability
 | ----------- | ------------ | ---------
-| [company](https://github.com/GetSilverfin/sf-templates/blob/master/drops/company.md) |              | All templates
-| period      |              | All templates
+| [company](https://github.com/GetSilverfin/sf-templates/blob/master/drops/company.md) |              | Root
+| period      |              | Root
 | person      |              | On period
-| account     |              | On period
+| [account](https://github.com/GetSilverfin/sf-templates/blob/master/drops/account.md) |              | On period
 | detail      |              | On account
 | transaction |              | On account
 | custom      |              | On period, detail, account and company

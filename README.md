@@ -1,6 +1,6 @@
 # Silverfin Templating Language
 
-The Silverfin Templating Language (STL) is based on two technologies: [Liquid](https://shopify.github.io/liquid/) for logic and accessing content and [Markdown](https://daringfireball.net/projects/markdown/syntax) for styling. This guide aims to explain how these technologies can be used to create templates and texts and can be used as a reference to see where STL differs from the original technologies.
+The Silverfin Templating Language (STL) is based on two technologies: [Liquid](https://shopify.github.io/liquid/) for logic and accessing content and [Markdown](https://daringfireball.net/projects/markdown/syntax) for styling. This guide aims to explain how these technologies can be used to create templates and texts and can be used as a reference to see where STL differs from the original technologies. Features from Liquid or Markdown that are not explicitly mentioned in this guide might work, but are not officially supported.
 
 ## Styling
 
@@ -23,5 +23,16 @@ TODO
 
 
 ## Logic
+
+Logic in STL is based on two important parts:
+
+* [Drops](#drops) to access data from Silverfin, these can be considered as variables
+* [Tags](#tags) to facilitate logic and more complex behaviour
+
+### Drops
+
+TODO
+
+### Tags
 
 TODO

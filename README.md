@@ -43,4 +43,6 @@ Logic in STL is based on two important parts:
 
 ### Tags
 
-TODO
+| Tag         | Description
+| ----------- | ------------
+| [input](https://github.com/GetSilverfin/sf-templates/blob/master/tags/input.md) |

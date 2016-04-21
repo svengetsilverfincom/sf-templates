@@ -39,7 +39,7 @@ Logic in STL is based on two important parts:
 | [account](https://github.com/GetSilverfin/sf-templates/blob/master/drops/account.md) |              | On period
 | detail      |              | On account
 | transaction |              | On account
-| custom      |              | On period, detail, account and company
+| [custom](https://github.com/GetSilverfin/sf-templates/blob/master/drops/custom.md)      |              | On period, detail, account and company
 
 ### Tags
 

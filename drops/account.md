@@ -83,7 +83,3 @@ An array of all named results for the account in this period
 
 `custom drop`
 A way to attach custom information to the account for the current period
-
-
-
-

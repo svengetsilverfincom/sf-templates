@@ -33,16 +33,16 @@ Logic in STL is based on two important parts:
 
 | Drop        | Description  | Availability
 | ----------- | ------------ | ---------
-| [company](https://github.com/GetSilverfin/sf-templates/blob/master/drops/company.md) |              | Root
-| period      |              | Root
-| person      |              | On period
-| [account](https://github.com/GetSilverfin/sf-templates/blob/master/drops/account.md) |              | On period
-| detail      |              | On account
-| transaction |              | On account
-| [custom](https://github.com/GetSilverfin/sf-templates/blob/master/drops/custom.md)      |              | On period, detail, account and company
+| [company](https://github.com/GetSilverfin/sf-templates/blob/master/drops/company.md) | a file | Root
+| period      | an accounting period | Root
+| person      | a person related to a company | On period
+| [account](https://github.com/GetSilverfin/sf-templates/blob/master/drops/account.md) | an account for a specific period | On period
+| detail      | a detail/explanation for an account for a specific period  | On account
+| transaction | a booking for an account, coming from the accountancy tool | On account
+| [custom](https://github.com/GetSilverfin/sf-templates/blob/master/drops/custom.md)      | a means to enter and access custom information | On period, detail, account and company
 
 ### Tags
 
 | Tag         | Description
 | ----------- | ------------
-| [input](https://github.com/GetSilverfin/sf-templates/blob/master/tags/input.md) |
+| [input](https://github.com/GetSilverfin/sf-templates/blob/master/tags/input.md) | Used together with a [custom](https://github.com/GetSilverfin/sf-templates/blob/master/drops/custom.md), it allows users to enter information

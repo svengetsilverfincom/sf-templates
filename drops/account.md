@@ -10,6 +10,11 @@ Name of the account
 `string`
 Number/code of the account
 
+## `original_number`
+
+`string`
+Number/code of the account as it was imported (before mapping or before it was changed in Silverfin)
+
 ## `link`
 
 `string`

@@ -8,7 +8,7 @@ Creates an input field for a [custom drop](https://github.com/GetSilverfin/sf-te
 {% input custom.the_namespace.the_key as:currency %}
 ```
 
-### input types
+## Input types
 
 To define what kind of input you want to show, you can modify the `as` parameter. Following types are currently supported:
 
@@ -25,3 +25,25 @@ To define what kind of input you want to show, you can modify the `as` parameter
 | file       | an input field that allows to select documents                            |         | Attachment 3 | (the actual document)
 | select     | an input field to select multiple values                                  |         | the selected value | "the selected value"
 
+## Common parameters
+
+### `placeholder`
+
+```
+{% input custom.the_namespace.the_key placeholder:"enter name here" %}
+```
+
+This guides the user what to fill in. 
+
+
+### `default`
+
+```
+{% input custom.the_namespace.the_key default:"Tony Soprano" %}
+```
+
+### `placeholder_default`
+
+```
+{% input custom.the_namespace.the_key placeholder_default:"Tony Soprano" %}
+```

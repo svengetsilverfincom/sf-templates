@@ -12,7 +12,7 @@ STL supports basic styling of text
 | ----------- | ------- | ----------------------- | -------
 | Bold        | `** **` | `**This is bold**`      | **This is bold**
 | Italic      | `* *`   | `*This is italic*`      | *This is italic*
-| Underline   | `_ _`   | `*This is underlined*`  | <img src="images/style_underlined.png" height="23" width="181">
+| Underline   | `_ _`   | `_This is underlined_`  | <img src="images/style_underlined.png" height="23" width="181">
 | Bold & Italic & Underlined | `***_ _***` | `***_This is bold, italic and underlined_***` |  <img src="images/style_bold_italic_underlined.png" height="46" width="181">
 
 

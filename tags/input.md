@@ -32,6 +32,7 @@ To define what kind of input you want to show, you can modify the `as` parameter
 ```
 {% input custom.the_namespace.the_key placeholder:"enter name here" %}
 ```
+<img src="../images/tags/input_placeholder.png" height="30">
 
 This guides the user what to fill in. 
 
@@ -42,8 +43,12 @@ This guides the user what to fill in.
 {% input custom.the_namespace.the_key default:"Tony Soprano" %}
 ```
 
+<img src="../images/tags/input_default.png" height="30">
+
 ### `placeholder_default`
 
 ```
 {% input custom.the_namespace.the_key placeholder_default:"Tony Soprano" %}
 ```
+
+<img src="../images/tags/input_default_placeholder.png" height="30">

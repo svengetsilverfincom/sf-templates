@@ -19,7 +19,27 @@ STL supports basic styling of text
 
 ### Tables
 
-TODO
+A table is mainly constructed with `|`. It consists of an optional header line that defines the markup of the table, and rows. A simple table can look like this:
+
+```
+| A table header | Another table header  |
+|----------------|-----------------------|
+| Table content  | other table content   |
+| 2nd row content| other 2nd row content |
+```
+
+* **Before and after a table there must's an empty line.**
+* Alignment of the `|` is not necessary and only allows for better reading.
+* The table header is optional
+
+Alignment is done by adding semi colons to the table header:
+
+```
+|:-----------------:|----------------------:|:----------------|
+| centered content  | right aligned content | left aligned content (default)
+```
+
+
 
 
 ## Logic

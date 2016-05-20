@@ -80,3 +80,4 @@ In Silverfin there are two modes:
 | `unexplained` | Used to define one or multiple values that need to be 0 to make regard the template as explained | `{% unexplained current_account.value-details_sum as:indicator %}`
 | `t=` | Define translations for a string | `{% t= "a text" nl:"een tekst" fr:"un texte" en:"a text" %}`
 | `t`  | Translate a string (translations need to be defined already before this tag with `t=` | `{% t "a text" %}`
+| `result` | Defines a result so it can be reused in another template. To access these variables, you need to add a handle to the reconciliation text. To access the results, you have to go through the period drop: `period.reconciliations.handle_of_reconciliation.results.total` | `{% result 'total' 123 %}`

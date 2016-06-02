@@ -55,7 +55,7 @@ Logic in STL is based on two important parts:
 | ----------- | ------------ | ---------
 | [company](https://github.com/GetSilverfin/sf-templates/blob/master/drops/company.md) | a file | Root
 | [period](https://github.com/GetSilverfin/sf-templates/blob/master/drops/period.md)   | an accounting period | Root
-| person      | a person related to a company | On period
+| [person](https://github.com/GetSilverfin/sf-templates/blob/master/drops/person.md)      | a person related to a company | On period
 | [account](https://github.com/GetSilverfin/sf-templates/blob/master/drops/account.md) | an account for a specific period | On period
 | detail      | a detail/explanation for an account for a specific period  | On account
 | transaction | a booking for an account, coming from the accountancy tool | On account

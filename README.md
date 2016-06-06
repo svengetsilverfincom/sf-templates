@@ -71,8 +71,8 @@ In Silverfin there are two modes:
 | Tag         | Description  | Example
 | ----------- | ------------ | ----------
 | [input](https://github.com/GetSilverfin/sf-templates/blob/master/tags/input.md) | Used together with a [custom](https://github.com/GetSilverfin/sf-templates/blob/master/drops/custom.md), it allows users to enter information | `{% input custom.some.thing as:currency %}
-| `inputcomment` (alias `ic`) | Used to show content only when in 'input' mode  | `{% ic %} this is only shown in input mode {% endic %}`
-| `noinputcomment` (alias `nic`) | Used to show content only when in 'input' mode | `{% nic %} this is only shown in input mode {% endnic %}`
+| `inputcomment` (alias `ic`) | Used to show content only when in 'input'   mode  | `{% ic %} this is only shown when not in input mode {% endic %}`
+| `noinputcomment` (alias `nic`) | Used to show content only when *not* in 'input' mode, for example in export | `{% nic %} this is only shown in input mode {% endnic %}`
 | `assign` | Used for assignment of variables | `{% assign name_of_var = 4 %}`
 | `linkto` | Used to link to an object (currently only works for accounts)| `{% linkto account %}this is linked to an account{% endlinkto %}`
 | `ifi`    | Same as if, but always executed when in input mode | `{% ifi some_var != blank %}this is shown when in input mode or some_var is filled in{% endifi %}`

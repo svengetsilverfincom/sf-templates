@@ -9,7 +9,7 @@ So let's get started, shall we? Keep in mind however, that this guide is (for no
 The Silverfin Templating Language (= **STL**) is used in Silverfin to render data. Text, account and reconciliation templates in Silverfin, are all based upon STL.  
 
 STL consists of 2 known coding laguages: 
-[Liquid](https://shopify.github.io/liquid/) & [Markdown](https://daringfireball.net/projects/markdown/syntax). These coding languages already exists many years, and you can find plenty information about it on the internet.  
+[Liquid](https://shopify.github.io/liquid/) & [Markdown](https://daringfireball.net/projects/markdown/syntax). These coding languages already exist many years, and you can find plenty information about it on the internet.  
 
 In short, Markdown is used for styling data (f.i. to put **this text as bold**). And Liquid is to read data from Silverfin ( f.i. to give the total of a certain account), but Liquid let's us also create new data in Silverfin (input free text in a text template is a simple example). 
 

@@ -13,7 +13,7 @@ STL consists of 2 known coding laguages:
 
 In short, Markdown is used for styling data (f.i. to put **this text as bold**). And Liquid is to read data from Silverfin ( f.i. to give the total of a certain account), but Liquid let's us also create new data in Silverfin (input free text in a text template is a simple example). 
 
-This guide aims to explain how these technologies can be used to create templates and texts and can be used as a reference to see where STL differs from the original technologies. Features from Liquid or Markdown that are not explicitly mentioned in this guide might work, but are not officially supported. So we sometimes use these technologies, but we also make our own coding language from it in Silverfin. If that is the case, we'll explicitly point that out in this guide.
+This guide aims to explain how these technologies can be used to create templates and texts and can be used as a reference to see where STL differs from the original technologies. Features from Liquid or Markdown that are not explicitly mentioned in this guide might work, but are not officially supported. So we use these technologies, but we sometimes make our own coding language from it in Silverfin. If that is the case, we'll explicitly point that out in this guide.
 
 But let's start from the beginning. 
 

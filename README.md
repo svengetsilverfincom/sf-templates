@@ -17,8 +17,6 @@ This guide aims to explain how these technologies can be used to create template
 
 But let's start from the beginning. 
 
-[Markdown](#markdown)
-
 ## Styling
 
 ### Basic styling
